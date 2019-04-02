@@ -5,15 +5,17 @@ body{
   margin-left:auto;
   margin-right: auto;
 }
-<!-- ヘッダー部分　-->
 
+/* --------------------------------
+ * トップ
+ * -------------------------------- */
 .top_wrapper{
   background-color:#debd96;
-  height:300px;
+  height:600px;
 }
 
 .container{
-
+  width:1000px;
   padding: 0 15px;
   margin: 0 auto;
   text-align: center;
@@ -34,9 +36,12 @@ body{
   margin:50px 0 50px 0;
 }
 
-<!-- アバウト-->
+/* --------------------------------
+ *　アバウト
+ * -------------------------------- */
+
 .about_wrapper{
-  height:600px;
+  height:400px;
   background-color: #fff;
   color:#debd96;
 }
@@ -47,9 +52,11 @@ body{
   border-radius:30px;
 }
 
-<!-- サービス　厳しい-->
+/* --------------------------------
+ * サービス
+ * -------------------------------- */
 .service_wrapper{
-  height:1000px;
+  height:500px;
   background-color:#debd96;
   color:#fff;
 
@@ -87,17 +94,39 @@ body{
   clear:both;
 }
 
-<!--プライス -->
-.price_wrapper{
-  background-color:red;
+/* --------------------------------
+ * プライス
+ * -------------------------------- */
+
+.price{
+  height:300px;
 }
 
-<!-- FAQ -->
+.icon_2{
+  display:inline-block;
+  height:70px;
+  width:70px;
+
+
+}
+
+.plan{
+  margin:0 auto;
+}
+
+.price_wrapper{
+  background-color: #fff;
+  color:#debd96;
+}
+
+/* --------------------------------
+ * FAQ
+ * -------------------------------- */
 .faq_wrapper {
-  background-color: #e6ecf0;
+  background-color: #debd96;
   text-align: center;
   padding-bottom: 80px;
-  color: #5f5d60;
+  color: #fff;
 }
 
 #faq_list {
@@ -134,22 +163,27 @@ body{
   margin-bottom: 15px;
 }
 
-<!-- コンタクト -->
+/* --------------------------------
+ * コンタクト
+ * -------------------------------- */
 .contact-wrapper{
-  height:500px;
+  height:600px;
   background-color:#debd96;
-  padding:20px 30px;
-  text-align: center;
 }
 
-<!-- フッタ -->
+/* --------------------------------
+ * フッタ
+ * -------------------------------- */
 footer{
   height:100px;
   background-color:#ab7736;
   color:#fff;
 }
 
-<!--共通部分　適用されないT＿T-->
+/* --------------------------------
+ * 共通部分
+ * -------------------------------- */
 .heading{
-  font-size:36px;
+  font-size:40px;
+
 }
