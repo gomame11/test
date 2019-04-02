@@ -1,0 +1,155 @@
+
+body{
+  font-family: "M PLUS Rounded 1c";
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+}
+<!-- ヘッダー部分　-->
+
+.top_wrapper{
+  background-color:#debd96;
+  height:300px;
+}
+
+.container{
+
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.site_title{
+  font-size:70px;
+  margin-bottom:10px;
+}
+
+.site_subtitle{
+}
+
+.img_top{
+  width:300px;
+  height:300px;
+  border-radius:150px;
+  margin:50px 0 50px 0;
+}
+
+<!-- アバウト-->
+.about_wrapper{
+  height:600px;
+  background-color: #fff;
+  color:#debd96;
+}
+
+.img_about{
+  width:480px;
+  height:230px;
+  border-radius:30px;
+}
+
+<!-- サービス　厳しい-->
+.service_wrapper{
+  height:1000px;
+  background-color:#debd96;
+  color:#fff;
+
+}
+.services{
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.service_q{
+  width:300px;
+  height:100px;
+  float:left;
+}
+
+.icon{
+  height:70px;
+  width:70px;
+  float:left;
+}
+
+.service_q_txt{
+  float:left;
+}
+
+.right{
+  float:left;
+}
+
+.service_a{
+  float: left;
+}
+
+.clear{
+  clear:both;
+}
+
+<!--プライス -->
+.price_wrapper{
+  background-color:red;
+}
+
+<!-- FAQ -->
+.faq_wrapper {
+  background-color: #e6ecf0;
+  text-align: center;
+  padding-bottom: 80px;
+  color: #5f5d60;
+}
+
+#faq_list {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.faq_list_item {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.faq_list_item h3 {
+  font-size: 14px;
+}
+
+.faq_list_item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:13px;
+}
+
+.answer {
+  font-size: 12px;
+  display: none;
+  padding: 5px 0px;
+  margin-bottom: 15px;
+}
+
+<!-- コンタクト -->
+.contact-wrapper{
+  height:500px;
+  background-color:#debd96;
+  padding:20px 30px;
+  text-align: center;
+}
+
+<!-- フッタ -->
+footer{
+  height:100px;
+  background-color:#ab7736;
+  color:#fff;
+}
+
+<!--共通部分　適用されないT＿T-->
+.heading{
+  font-size:36px;
+}
