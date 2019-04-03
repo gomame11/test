@@ -4,6 +4,9 @@ body{
   text-align: center;
   margin-left:auto;
   margin-right: auto;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+
 }
 
 /* --------------------------------
@@ -23,7 +26,8 @@ body{
 
 .site_title{
   font-size:70px;
-  margin-bottom:10px;
+  padding-top:50px;
+  margin-bottom:30px;
 }
 
 .site_subtitle{
@@ -44,12 +48,18 @@ body{
   height:400px;
   background-color: #fff;
   color:#debd96;
+  margin-bottom:50px;
+}
+
+.about_p{
+  padding:20px;
 }
 
 .img_about{
   width:480px;
   height:230px;
   border-radius:30px;
+
 }
 
 /* --------------------------------
@@ -62,20 +72,23 @@ body{
 
 }
 .services{
-  margin-right:auto;
-  margin-left:auto;
+  width:800px;
+  margin:0 auto;
 }
 
 .service_q{
   width:300px;
   height:100px;
   float:left;
+  background-color:#FEEEDA;
+  margin-bottom:30px;
 }
 
 .icon{
-  height:70px;
-  width:70px;
+  height:50px;
+  width:50px;
   float:left;
+  line-height:100px;
 }
 
 .service_q_txt{
@@ -83,11 +96,24 @@ body{
 }
 
 .right{
+  display:inline-block;
   float:left;
+  margin:25px 50px;
 }
 
 .service_a{
+  display:flex;
+  align-items: center;
+  width:300px;
+  height:100px;
   float: left;
+  background-color:#FEEEDA;
+  margin-bottom:30px;
+}
+
+.service_a_txt{
+  flex:1;
+
 }
 
 .clear{
@@ -175,15 +201,24 @@ body{
  * フッタ
  * -------------------------------- */
 footer{
-  height:100px;
-  background-color:#ab7736;
+  height:50px;
+  background-color:#debd96;
   color:#fff;
+}
+
+footer p{
+  line-height:50px;
 }
 
 /* --------------------------------
  * 共通部分
  * -------------------------------- */
 .heading{
-  font-size:40px;
+  padding:20px 0 0 0;
+  margin-bottom:0px;
+  font-size:30px;
+}
 
+.heading_p{
+  margin-top:10px;
 }
