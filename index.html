@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="description" content="検索時に出す紹介文">
     <title>Surry</title>
-    <link rel="stylesheet" href="/test/css/stylesheet.css">
-    <link rel="stylesheet" href="/test/css/normalize.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
   </head>
   <body>
@@ -14,8 +14,8 @@
       <div class="top_wrapper">
         <div class="cotainer">
           <h1 class="site_title">Surry</h1>
-          <p class="site_subtitle">気の利いたコピーが入るらしいぜ！もじもじもじもじもじ</p>
-          <img class="img_top" src="/test/img/top.jpg">
+          <p class="site_subtitle">気の利いたコピーが入るらしい！もじもじもじもじもじ</p>
+          <img class="img_top" src="test/img/top.jpg">
         </div>
       </div>
     </header>
@@ -26,7 +26,7 @@
         <div class="container">
           <h2 class="heading">ABOUT</h2>
           <p class="about_p">今日も会社の偉い人に怒られて頭をぺこぺこ下げていませんか？<br>ストレスフルなこの時代、皆さんを癒すためにサリーは生まれました！</p>
-          <img class="img_about" src="/test/img/about.jpg">
+          <img class="img_about" src="test/img/about.jpg">
         </div>
       </div>
 <!--サービス-->
@@ -37,44 +37,43 @@
         <div class="services">
           <div class="service">
             <div class="service_q">
-              <img class="icon tear" src="/test/img/tear.png">
+              <img class="icon tear" src="test/img/tear.png">
               <div class="service_q_txt">
                 <h3>さみしいとき</h3>
                 <p>一人暮らしで孤独な人に</p>
               </div>
             </div>
-            <img class="right" src="/test/img/right.png">
+            <img class="right" src="test/img/right.png">
             <div class="service_a">
                 <div class="service_a_txt">あなたのそばに寄り添うことで<br>孤独感を減らします</div>
             </div>
           </div>
 
-          <div class="clear"></div>
           <div class="service">
             <div class="service_q">
-              <img class="icon dog" src="/test/img/dog.png">
+              <img class="icon dog" src="test/img/dog.png">
               <div class="service_q_txt">
-                <h3>犬を猛烈に欲しているとき</h3>
+                <h3>犬を欲しているとき</h3>
                 <p>ペットロスな人に</p>
               </div>
             </div>
-            <img class="right" src="/test/img/right.png">
+            <img class="right" src="test/img/right.png">
             <div class="service_a">
               <div class="service_a_txt">
                 <p>なんかうまいテキストを入れる<br>テキスト</p>
               </div>
             </div>
           </div>
-          <div class="clear"></div>
+
           <div class="service">
             <div class="service_q">
-              <img class="icon run" src="/test/img/run.png">
+              <img class="icon run" src="test/img/run.png">
               <div class="service_q_txt">
                 <h3>運動不足なとき</h3>
                 <p>ジムでは物足りない人に</p>
               </div>
             </div>
-            <img class="right" src="/test/img/right.png">
+            <img class="right" src="test/img/right.png">
             <div class="service_a">
               <div class="service_a_txt">
                 <p>なんかうまいテキストを入れる<br>テキストテキスト</p>
@@ -86,7 +85,7 @@
     </div>
   </div>
     </section>
-<div class="clear"></div>
+
 <!--プライス-->
     <div class="price_wrapper">
       <div class="container">
@@ -95,7 +94,7 @@
       <div class="prices">
         <div class="price">
           <h3>きゅうりプラン</h3>
-          <img class="icon_2 cucmber" src="/test/img/cucmber.png">
+          <img class="icon_2 cucmber" src="test/img/cucmber.png">
           <table class="plan">
             <tbody>
               <tr>
@@ -112,11 +111,10 @@
               </tr>
             </tbody>
           </table>
-
         </div>
         <div class="price">
           <h3>りんごプラン</h3>
-          <img class="icon_2 apple" src="/test/img/apple.png">
+          <img class="icon_2 apple" src="test/img/apple.png">
           <table class="plan">
             <tbody>
               <tr>
@@ -137,7 +135,7 @@
         </div>
         <div class="price">
           <h3>いちごプラン</h3>
-          <img class="icon_2 berry" src="/test/img/berry.png">
+          <img class="icon_2 berry" src="test/img/berry.png">
           <table class="plan">
             <tbody>
               <tr>
@@ -187,18 +185,18 @@
       <div class="container">
         <h2 class="heading">CONTACT</h2>
         <p class="heading_p">お気軽にご連絡ください</p>
-        <p>お名前(必須)</p>
-        <input type="text" name="name" required>
-        <p>メールアドレス(必須)</p>
-        <input type="email" name="email" required>
-        <p>プラン(必須)</p>
-        <label><input type="radio" name="plan" value="cucmber" checked="checked">きゅうりプラン</label>
-        <label><input type="radio" name="plan" value="apple">りんごプラン</label>
-        <label><input type="radio" name="plan" value="berry">いちごプラン</label>
-        <label><input type="radio" name="plan" value="noplan">その他</label>
-        <p>お問い合わせ内容(必須)</p>
-        <textarea name="name" rows="8" cols="80" required></textarea>
-        <input type="submit" value="送信">
+        <p class="contact_p">お名前(必須)</p>
+        <input class="name" type="text" name="name" required>
+        <p class="contact_p">メールアドレス(必須)</p>
+        <input class="mail"type="email" name="email" required>
+        <p class="contact_p">プラン(必須)</p>
+        <label><input class="radio"type="radio" name="plan" value="cucmber" checked="checked">きゅうりプラン</label>
+        <label><input class="radio"type="radio" name="plan" value="apple">りんごプラン</label>
+        <label><input class="radio"type="radio" name="plan" value="berry">いちごプラン</label>
+        <label><input class="radio"type="radio" name="plan" value="noplan">その他</label>
+        <p class="contact_p">お問い合わせ内容(必須)</p>
+        <textarea class="textarea"name="name" rows="8" cols="80" required></textarea>
+        <input class="submit"type="submit" value="送信">
       </div>
     </div>
 <!--フッター-->
