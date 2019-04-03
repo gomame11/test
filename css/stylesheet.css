@@ -6,6 +6,7 @@ body{
   margin-right: auto;
   margin-block-start: 0px;
   margin-block-end: 0px;
+  color:#000;
 
 }
 
@@ -47,7 +48,6 @@ body{
 .about_wrapper{
   height:400px;
   background-color: #fff;
-  color:#debd96;
   margin-bottom:50px;
 }
 
@@ -66,14 +66,14 @@ body{
  * サービス
  * -------------------------------- */
 .service_wrapper{
+  width:100%;
   height:500px;
   background-color:#debd96;
-  color:#fff;
 
 }
 .services{
-  width:800px;
-  margin:0 auto;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 .service_q{
@@ -81,7 +81,9 @@ body{
   height:100px;
   float:left;
   background-color:#FEEEDA;
+  border-radius: 20px;
   margin-bottom:30px;
+  position:relative;
 }
 
 .icon{
@@ -89,10 +91,18 @@ body{
   width:50px;
   float:left;
   line-height:100px;
+  position:absolute;
+  top:25%;
+  left:5%;
 }
 
 .service_q_txt{
-  float:left;
+  position:absolute;
+  left:30%;
+}
+
+h3 .service_q_txt{
+  margin-bottom:10px;
 }
 
 .right{
@@ -109,6 +119,7 @@ body{
   float: left;
   background-color:#FEEEDA;
   margin-bottom:30px;
+  border-radius: 20px;
 }
 
 .service_a_txt{
@@ -116,43 +127,65 @@ body{
 
 }
 
-.clear{
-  clear:both;
-}
 
 /* --------------------------------
  * プライス
  * -------------------------------- */
 
+.price_wrapper{
+  width:100%;
+  height:400px;
+  background-color: #fff;
+
+}
+
+.prices{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .price{
-  height:300px;
+  float:left;
+  width:25%;
+
 }
 
 .icon_2{
   display:inline-block;
   height:70px;
   width:70px;
-
-
+  margin-top:10px;
+  margin-bottom: 10px;
 }
 
 .plan{
-  margin:0 auto;
+  margin: auto;
 }
 
-.price_wrapper{
-  background-color: #fff;
-  color:#debd96;
+.plan tr{
+  background-color:#ebd8c0;
+  height:40px;
+
 }
+
+th{
+  padding:10px 20px;
+}
+
+td{
+  padding:10px 30px;
+}
+
+
 
 /* --------------------------------
  * FAQ
  * -------------------------------- */
 .faq_wrapper {
+  height:300px;
   background-color: #debd96;
   text-align: center;
   padding-bottom: 80px;
-  color: #fff;
 }
 
 #faq_list {
@@ -193,8 +226,34 @@ body{
  * コンタクト
  * -------------------------------- */
 .contact-wrapper{
+  width:100%;
   height:600px;
   background-color:#debd96;
+}
+
+.name,.mail{
+  height:30px;
+  width: 500px;
+}
+
+textarea{
+  width:500px;
+}
+
+label{
+  margin-right: 20px;
+}
+
+.contact_p{
+
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.submit{
+  height:40px;
+  width: 500px;
+  margin-top:10px;
 }
 
 /* --------------------------------
@@ -203,7 +262,6 @@ body{
 footer{
   height:50px;
   background-color:#debd96;
-  color:#fff;
 }
 
 footer p{
@@ -220,5 +278,6 @@ footer p{
 }
 
 .heading_p{
-  margin-top:10px;
+  margin-top:20px;
+  margin-bottom:50px;
 }
